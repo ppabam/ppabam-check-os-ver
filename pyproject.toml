@@ -1,6 +1,6 @@
 [project]
 name = "ppabam-check-os-ver"
-version = "0.1.0"
+version = "0.2.0"
 description = "Detects and outputs the os version."
 authors = [
     {name = "ppabam", email = "tom@diginori.com"},
@@ -17,3 +17,7 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/ppabam/ppabam-check-os-ver"
+Issues = "https://github.com/ppabam/ppabam-check-os-ver/issues"

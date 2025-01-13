@@ -104,4 +104,5 @@ $ git add <FILE_NAME>
 $ git commit -a
 $ git push
 $ pdm publish
+Username: __token__
 ```

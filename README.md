@@ -107,3 +107,8 @@ $ git push
 $ pdm publish
 Username: __token__
 ```
+
+### Ref
+- https://pdm-project.org/en/latest/
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- [console_scripts](https://packaging.python.org/en/latest/specifications/entry-points/#entry-points-specification)

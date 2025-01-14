@@ -21,3 +21,6 @@ distribution = true
 [project.urls]
 Homepage = "https://github.com/ppabam/ppabam-check-os-ver"
 Issues = "https://github.com/ppabam/ppabam-check-os-ver/issues"
+
+[project.scripts]
+ppabam-hi = "ppabam_check_os_ver.hi:hi"

@@ -35,3 +35,9 @@ ppabam-random-pic = "ppabam_check_os_ver.hi:random_pic"
 ppabam-random-game = "ppabam_check_os_ver.hi:random_game"
 ppabam-random-match = "ppabam_check_os_ver.hi:random_match"
 ppabam-os-ver = "ppabam_check_os_ver.osver:get_os_pretty_name"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]

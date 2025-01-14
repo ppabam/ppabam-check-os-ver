@@ -132,6 +132,15 @@ https://pypi.org/project/ppabam-check-os-ver/0.3.0/
 # Tag - Releases
 ```
 
+### Test
+- https://docs.pytest.org/en/stable/
+```bash
+# $ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov
+```
+
 ### Ref
 - https://pdm-project.org/en/latest/
 - https://packaging.python.org/en/latest/tutorials/packaging-projects/

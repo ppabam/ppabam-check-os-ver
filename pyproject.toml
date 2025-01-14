@@ -5,7 +5,7 @@ description = "Detects and outputs the os version."
 authors = [
     {name = "ppabam", email = "tom@diginori.com"},
 ]
-dependencies = []
+dependencies = ["stundrg-check-os-ver>=0.2.3"]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
@@ -24,3 +24,4 @@ Issues = "https://github.com/ppabam/ppabam-check-os-ver/issues"
 
 [project.scripts]
 ppabam-hi = "ppabam_check_os_ver.hi:hi"
+ppabam-random = "ppabam_check_os_ver.hi:random_pic"

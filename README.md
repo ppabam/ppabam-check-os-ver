@@ -106,6 +106,8 @@ $ git commit -a
 $ git push
 $ pdm publish
 Username: __token__
+# PR - Merge
+# Tag - Releases
 ```
 
 ### Ref

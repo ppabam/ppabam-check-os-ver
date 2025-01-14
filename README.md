@@ -87,6 +87,17 @@ $ python
 >>> hi()
 ```
 
+### CLI
+```bash
+# Random ASCII art is represented
+$ ppabam-random
+
+# Random ASCII art is represented per second.
+$ ./ppabam-random-match-while.sh ppabam-random
+$ ./ppabam-random-match-while.sh ppabam-random-game
+$ ./ppabam-random-match-while.sh ppabam-random-pic
+```
+
 ### Development environment setting
 ```bash
 # install PDM
@@ -104,8 +115,19 @@ $ pip install .
 $ git add <FILE_NAME>
 $ git commit -a
 $ git push
-$ pdm publish
-Username: __token__
+$ pdm publish --username __token__ --password $PYPI_TOKEN
+Building sdist...
+Built sdist at /home/tom/code/ppabam-check-os-ver/dist/ppabam_check_os_ver-0.3.0.tar.gz
+Building wheel from sdist...
+Built wheel at /home/tom/code/ppabam-check-os-ver/dist/ppabam_check_os_ver-0.3.0-py3-none-any.whl
+Uploading ppabam_check_os_ver-0.3.0-py3-none-any.whl
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.1/18.1 kB • 00:00 • 83.2 MB/s
+Uploading ppabam_check_os_ver-0.3.0.tar.gz
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.0/16.0 kB • 00:00 • 80.8 MB/s
+
+View at:
+https://pypi.org/project/ppabam-check-os-ver/0.3.0/
+
 # PR - Merge
 # Tag - Releases
 ```

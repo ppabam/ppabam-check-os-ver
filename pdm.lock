@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:bee49e443bbdac688caf1f18dbabb7fc077b7353a1eaf9c50ad29cd521cb1d90"
+content_hash = "sha256:4b4cce724f493d698048503c2bdf991862510b5227cf26d4f394ee3c76322dd7"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -34,13 +34,23 @@ files = [
 
 [[package]]
 name = "hj-check-os-version"
-version = "0.2.1"
+version = "0.3.1"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
+dependencies = [
+    "check-os-ver>=0.2.1",
+    "cho-check-os-ver>=0.2.3",
+    "jacob-os-version-check>=0.2.4",
+    "lucas-check-os-ver>=0.2.1",
+    "nunininu-check-os-ver>=0.3.0",
+    "ppabam-check-os-ver>=0.2.0",
+    "seo-check-os-version>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+]
 files = [
-    {file = "hj_check_os_version-0.2.1-py3-none-any.whl", hash = "sha256:312ba49265b057d0a535fc36a8584c5360e595f1ab7539c269384fdcf6cef609"},
-    {file = "hj_check_os_version-0.2.1.tar.gz", hash = "sha256:060ebe4a4323f03248e1902997c943e948272ca856da15874e6f10c8b3185e00"},
+    {file = "hj_check_os_version-0.3.1-py3-none-any.whl", hash = "sha256:0c79666c508a24b385fc4d5eb85d8bf3bcb3492830b5c5dda75c139f4344f09c"},
+    {file = "hj_check_os_version-0.3.1.tar.gz", hash = "sha256:241931c7b09f087a5c22c03099fd400e90dc6bf8cc0f9c70d1112dd97ab55749"},
 ]
 
 [[package]]
